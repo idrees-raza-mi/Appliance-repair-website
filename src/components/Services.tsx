@@ -32,7 +32,7 @@ const Services = () => {
 								<p className="mt-1 text-center text-gray-300 text-xs line-clamp-2">{service.description}</p>
 								<div className="mt-2 flex justify-center">
 									<Link href="#contact" className="inline-flex items-center justify-center bg-emerald-600 hover:bg-emerald-500 text-white font-semibold px-2 py-1 rounded text-xs">
-										Book now
+										Contact Us
 									</Link>
 								</div>
 							</div>

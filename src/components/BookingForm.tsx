@@ -54,14 +54,14 @@ const BookingForm = () => {
                 <option value="Dryer">Dryer</option>
                 <option value="Water Heater">Water Heater</option>
               </select>
+           </div>
+            <div>
+              <label htmlFor="description" className="block text-sm font-medium text-white dark:text-white">Description of Issue</label>
+              <textarea name="description" id="description" rows={4} required value={formData.description} onChange={handleChange} className="mt-1 block w-full px-3 py-2 bg-gray-800 dark:bg-gray-800 border border-gray-300 dark:border-gray-600 rounded-md shadow-sm placeholder-gray-400 focus:outline-none focus:ring-1 focus:ring-gray-500 focus:border-gray-500 dark:text-white"></textarea>
             </div>
             <div>
-              <label htmlFor="description" className="block text-sm font-medium text-gray-700 dark:text-gray-300">Description of Issue</label>
-              <textarea name="description" id="description" rows={4} required value={formData.description} onChange={handleChange} className="mt-1 block w-full px-3 py-2 bg-white dark:bg-gray-800 border border-gray-300 dark:border-gray-600 rounded-md shadow-sm placeholder-gray-400 focus:outline-none focus:ring-1 focus:ring-gray-500 focus:border-gray-500 dark:text-white"></textarea>
-            </div>
-            <div>
-              <label htmlFor="time" className="block text-sm font-medium text-gray-700 dark:text-gray-300">Preferred Service Time</label>
-              <input type="datetime-local" name="time" id="time" required value={formData.time} onChange={handleChange} className="mt-1 block w-full px-3 py-2 bg-white dark:bg-gray-800 border border-gray-300 dark:border-gray-600 rounded-md shadow-sm placeholder-gray-400 focus:outline-none focus:ring-1 focus:ring-gray-500 focus:border-gray-500 dark:text-white" />
+              <label htmlFor="time" className="block text-sm font-medium text-white dark:text-white">Preferred Service Time</label>
+              <input type="datetime-local" name="time" id="time" required value={formData.time} onChange={handleChange} className="mt-1 block w-full px-3 py-2 bg-gray-800 dark:bg-gray-800 border border-gray-300 dark:border-gray-600 rounded-md shadow-sm placeholder-gray-400 focus:outline-none focus:ring-1 focus:ring-gray-500 focus:border-gray-500 dark:text-white" />
             </div>
             <div>
               <button type="submit" className="w-full flex justify-center py-3 px-4 rounded-md shadow-sm text-sm font-medium text-white bg-emerald-600 hover:bg-emerald-500">Submit Request</button>

@@ -27,7 +27,7 @@ const Hero = () => {
                 Explore Services
               </Link>
               <Link href="#contact" className="inline-flex items-center justify-center px-5 py-3 rounded-lg bg-gray-800 text-white ring-1 ring-white/10 hover:bg-gray-700">
-                Book a Repair
+                Contact Us
               </Link>
             </div>
 

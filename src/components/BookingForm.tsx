@@ -24,7 +24,7 @@ const BookingForm = () => {
   };
 
   return (
-    <section id="contact" className="bg-white dark:bg-gray-800 py-14">
+    <section id="contact" className="bg-gray-800 dark:bg-gray-800 py-14">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-8">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 dark:text-white">Book a Service</h2>
@@ -44,11 +44,15 @@ const BookingForm = () => {
               <label htmlFor="appliance" className="block text-sm font-medium text-gray-700 dark:text-gray-300">Appliance Type</label>
               <select name="appliance" id="appliance" required value={formData.appliance} onChange={handleChange} className="mt-1 block w-full px-3 py-2 bg-white dark:bg-gray-800 border border-gray-300 dark:border-gray-600 rounded-md shadow-sm focus:outline-none focus:ring-1 focus:ring-gray-500 focus:border-gray-500 dark:text-white">
                 <option value="">Select an appliance</option>
-                <option value="AC">AC</option>
                 <option value="Fridge">Fridge</option>
                 <option value="Washing Machine">Washing Machine</option>
                 <option value="Oven">Oven</option>
                 <option value="Stove">Stove</option>
+                <option value="Vacuum Cleaner">Vacuum Cleaner</option>
+                <option value="Dishwasher">Dishwasher</option>
+                <option value="Microwave">Microwave</option>
+                <option value="Dryer">Dryer</option>
+                <option value="Water Heater">Water Heater</option>
               </select>
             </div>
             <div>
